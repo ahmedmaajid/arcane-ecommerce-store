@@ -1,0 +1,243 @@
+[
+  {
+    "id": 1,
+    "brand": "Arcane",
+    "category": "Women's",
+    "tags": ["new", "featured", "tops"],
+    "name": "The Meridian Tech-Knit Hoodie",
+    "description": "Unstructured silhouette in 100% European linen. Natural, breathable, effortless.",
+    "price": 420,
+    "img": "/products/hoodie-1.jpg"
+  },
+  {
+    "id": 23,
+    "brand": "Arcane",
+    "name": "The Velvet-Wool Tailored Trouser",
+    "category": "Women's",
+    "tags": ["bottoms", "new", "women"],
+    "description": "Tailored in a classic straight cut, these trousers are made from a luxurious velvet-wool blend. The fabric is soft and drapey, offering a comfortable fit that flatters the silhouette.",
+    "price": 490,
+    "img": "/products/women-pant.png"
+  },
+  {
+    "id": 24,
+    "brand": "Arcane",
+    "name": "The Riviera Azure Chino Short",
+    "category": "Men's",
+    "tags": ["bottoms", "accessories", "men"],
+    "description": "A classic chino short in a soft azure blue. Tailored for a flattering fit.",
+    "price": 295,
+    "img": "/products/men-short.png"
+  },
+  {
+    "id": 25,
+    "brand": "Arcane",
+    "name": "The Alabaster Sovereign Waistcoat",
+    "category": "Men's",
+    "tags": ["tops", "new", "men", "underwear"],
+    "description": "A refined waistcoat in a crisp alabaster white. Crafted from breathable cotton for all-day comfort.",
+    "price": 39,
+    "img": "/products/men-west.png"
+  },
+  {
+    "id": 2,
+    "brand": "Arcane",
+    "category": "Men's",
+    "tags": ["new", "tops", "bestseller"],
+    "name": "The Heritage Monogram Pullover",
+    "description": "Extra-fine merino in a relaxed shirt cut. Wears as a layer or alone.",
+    "price": 310,
+    "img": "/products/hoodie-2.png"
+  },
+  {
+    "id": 3,
+    "brand": "Arcane",
+    "category": "Women's",
+    "tags": ["new", "tops", "featured"],
+    "name": "The Aria Tessellated V-Neck",
+    "description": "Washed silk crepe. Adjustable wrap. Designed to move with you.",
+    "price": 580,
+    "img": "/products/women-tshirt-1.png"
+  },
+  {
+    "id": 4,
+    "brand": "Arcane",
+    "category": "Accessories",
+    "tags": ["accessories", "featured", "bestseller"],
+    "name": "The Élégance Grand Satchel",
+    "description": "Full-grain leather. Ages into a patina unique to the wearer.",
+    "price": 1145,
+    "img": "/products/bag-1.png"
+  },
+  {
+    "id": 5,
+    "brand": "Arcane",
+    "category": "Men's",
+    "tags": ["tops", "new"],
+    "name": "The Sovereign Monogram Tee",
+    "description": "Heavyweight cotton. Garment-dyed. Builds character with every wash.",
+    "price": 145,
+    "img": "/products/men-tshirt-1.png"
+  },
+  {
+    "id": 6,
+    "brand": "Arcane",
+    "category": "Women's",
+    "tags": ["bottoms", "featured"],
+    "name": "The Atelier Wide-Leg Trouser",
+    "description": "Tailored wide-leg in Italian wool blend. Fluid, structured, timeless.",
+    "price": 490,
+    "img": "/products/trouser.png"
+  },
+  {
+    "id": 7,
+    "brand": "Arcane",
+    "category": "Men's",
+    "tags": ["bottoms", "bestseller"],
+    "name": "The Côte Relaxed Chino",
+    "description": "Stone-washed cotton canvas. Relaxed tapered fit. Built for all-day wear.",
+    "price": 265,
+    "img": "/products/trouser-2.png"
+  },
+  {
+    "id": 8,
+    "brand": "Arcane",
+    "category": "Accessories",
+    "tags": ["accessories", "new"],
+    "name": "The Riviera Silk Scarf",
+    "description": "100% silk twill. Hand-rolled edges. Printed in Lyon, France.",
+    "price": 320,
+    "img": "/products/scarf.png"
+  },
+  {
+    "id": 9,
+    "brand": "Arcane",
+    "category": "Women's",
+    "tags": ["outerwear", "featured", "bestseller"],
+    "name": "The Maison Oversized Coat",
+    "description": "Double-faced cashmere wool. Minimalist silhouette. Built to last decades.",
+    "price": 1290,
+    "img": "/products/hoodie-1.jpg"
+  },
+  {
+    "id": 10,
+    "brand": "Arcane",
+    "category": "Men's",
+    "tags": ["outerwear", "new"],
+    "name": "The Canvasse Field Jacket",
+    "description": "Waxed Japanese cotton canvas. Four patch pockets. Ages beautifully.",
+    "price": 680,
+    "img": "/products/hoodie-2.png"
+  },
+  {
+    "id": 11,
+    "brand": "Arcane",
+    "category": "Women's",
+    "tags": ["tops", "new", "bestseller"],
+    "name": "The Blanc Linen Shirt",
+    "description": "Relaxed fit in enzyme-washed linen. Worn tucked or untucked.",
+    "price": 210,
+    "img": "/products/women-tshirt-1.png"
+  },
+  {
+    "id": 12,
+    "brand": "Arcane",
+    "category": "Men's",
+    "tags": ["tops", "featured"],
+    "name": "The Brume Merino Crewneck",
+    "description": "Extra-fine merino. Ribbed cuffs and hem. A wardrobe foundation.",
+    "price": 340,
+    "img": "/products/hoodie-2.png"
+  },
+  {
+    "id": 13,
+    "brand": "Arcane",
+    "category": "Accessories",
+    "tags": ["accessories", "bestseller"],
+    "name": "The Tanner Leather Belt",
+    "description": "Vegetable-tanned full-grain leather. Brass buckle. Patinas over time.",
+    "price": 145,
+    "img": "/products/bag-1.png"
+  },
+
+  {
+    "id": 15,
+    "brand": "Arcane",
+    "category": "Men's",
+    "tags": ["outerwear", "featured", "bestseller"],
+    "name": "The Édition Wool Blazer",
+    "description": "Single-breasted in Italian wool. Unlined for drape. Ageless.",
+    "price": 890,
+    "img": "/products/hoodie-2.png"
+  },
+  {
+    "id": 16,
+    "brand": "Arcane",
+    "category": "Accessories",
+    "tags": ["accessories", "new", "featured"],
+    "name": "The Minuit Clutch",
+    "description": "Smooth calfskin with a magnetic closure. Evening to everyday.",
+    "price": 620,
+    "img": "/products/bag-1.png"
+  },
+  {
+    "id": 17,
+    "brand": "Arcane",
+    "category": "Women's",
+    "tags": ["tops", "bestseller"],
+    "name": "The Lumière Silk Blouse",
+    "description": "Fluid silk charmeuse. Relaxed collar. Effortlessly elegant.",
+    "price": 430,
+    "img": "/products/women-tshirt-1.png"
+  },
+  {
+    "id": 18,
+    "brand": "Arcane",
+    "category": "Men's",
+    "tags": ["bottoms", "new"],
+    "name": "The Sable Drawstring Trouser",
+    "description": "Cupro-blend in a relaxed straight cut. Breathable, falls beautifully.",
+    "price": 295,
+    "img": "/products/men-tshirt-1.png"
+  },
+  {
+    "id": 19,
+    "brand": "Arcane",
+    "category": "Women's",
+    "tags": ["outerwear", "new", "featured"],
+    "name": "The Nuage Trench Coat",
+    "description": "Classic trench silhouette in water-resistant cotton gabardine.",
+    "price": 960,
+    "img": "/products/hoodie-1.jpg"
+  },
+  {
+    "id": 20,
+    "brand": "Arcane",
+    "category": "Accessories",
+    "tags": ["accessories", "featured"],
+    "name": "The Éclat Sunglasses",
+    "description": "Acetate frames. Mineral glass lenses. Handmade in Italy.",
+    "price": 390,
+    "img": "/products/sunglass.png"
+  },
+  {
+    "id": 21,
+    "brand": "Arcane",
+    "category": "Accessories",
+    "tags": ["accessories", "new", "women"],
+    "name": "The Bordeaux Muse Satchel",
+    "description": "Hand-stitched in Italy. Smooth calfskin with a magnetic closure.",
+    "price": 620,
+    "img": "/products/bag-2.png"
+  },
+  {
+    "id": 22,
+    "brand": "Arcane",
+    "category": "Women's",
+    "tags": ["belt", "accessories", "women"],
+    "name": "The Elegance Signature Monogram Belt",
+    "description": "The Élégance Signature Monogram Belt This luxurious women's belt features our iconic 'Maison d'Élégance' monogram precisely debossed into the deep burgundy pebble-grain leather, exactly matching the Muse Satchel. A contrasting gold-tone rectangular buckle provides a sophisticated, minimalist clasp, finished with clean edges and exquisite stitching. This accessory effortlessly elevates any silhouette, whether defining a tailored blazer or pairing with premium denim.",
+    "price": 430,
+    "img": "/products/women-belt.png"
+  }
+]
