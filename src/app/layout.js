@@ -18,22 +18,36 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Arcane — Modern Luxury Fashion",
+  title: "Arcane — Quiet Luxury",
   description:
-    "Discover the new Arcane SS2025 collection. Timeless, refined fashion for the discerning few. Shop new arrivals in women's and men's luxury clothing.",
-  keywords:
-    "luxury fashion, designer clothing, minimalist fashion, SS2025, Arcane, editorial fashion",
+    "A curated collection of refined clothing. Crafted without compromise.",
+
+  // OG tags — for WhatsApp, Facebook, LinkedIn
   openGraph: {
-    title: "Arcane — Modern Luxury Fashion",
+    title: "Arcane — Quiet Luxury",
     description:
-      "Discover the new Arcane SS2025 collection. Timeless pieces for the discerning few.",
-    type: "website",
+      "A curated collection of refined clothing. Crafted without compromise.",
+    url: "https://arcane-store.vercel.app",
     siteName: "Arcane",
+    images: [
+      {
+        url: "/og-image.png", // place this in /public/og-image.jpg
+        width: 1200,
+        height: 630,
+        alt: "Arcane — Quiet Luxury Fashion",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
   },
+
+  // Twitter card — for Twitter/X previews
   twitter: {
     card: "summary_large_image",
-    title: "Arcane — Modern Luxury Fashion",
-    description: "Discover the new Arcane SS2025 collection.",
+    title: "Arcane — Quiet Luxury",
+    description:
+      "A curated collection of refined clothing. Crafted without compromise.",
+    images: ["/og-image.png"],
   },
 };
 
