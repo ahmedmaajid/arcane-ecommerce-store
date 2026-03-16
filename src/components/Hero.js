@@ -209,7 +209,7 @@ export default function Hero() {
             </Link>
 
             <Link
-              href="/new"
+              href="/collections/new"
               className="text-[11px] tracking-widest font-semibold uppercase  text-white/70 hover:text-white transition-colors duration-200 border-b border-white/40 pb-0.5 hover:border-white"
             >
               New Arrivals
