@@ -265,7 +265,7 @@ export default function Atelier() {
           Every Arcane piece is numbered, documented, and repaired for life.
         </p>
         <Link
-          href="/about"
+          href="/#"
           className="group inline-flex items-center gap-2.5 text-[11px] tracking-[0.18em] uppercase text-stone-700 border border-stone-300 px-6 py-3 hover:border-stone-700 hover:bg-stone-50 transition-all duration-300"
         >
           Our Story
