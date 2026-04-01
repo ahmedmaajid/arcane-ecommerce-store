@@ -11,6 +11,11 @@
   --color-gray-light: #f2f2f2;
 }
 
+:root {
+  --font-inter: "Inter", sans-serif;
+  --font-cormorant-garamond: "Cormorant Garamond", serif;
+  --font-manrope: "Manrope", sans-serif;
+}
 html {
   scroll-behavior: smooth;
 }

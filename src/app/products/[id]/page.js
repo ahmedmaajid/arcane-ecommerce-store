@@ -53,6 +53,24 @@ export default function ProductPage() {
   const infoRef = useRef(null);
   const pageRef = useRef(null);
 
+  const handleWhatsAppOrder = () => {
+    if (!selectedSize) {
+      setSizeError(true);
+      return;
+    }
+
+    const phone = "94723317927";
+
+    const message = `Order Request:
+Product: ${product.name}
+Price: $${product.price}
+Size: ${selectedSize}
+Link: ${window.location.href}`;
+
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+  };
+
   // Page entrance
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -310,6 +328,11 @@ export default function ProductPage() {
                   {size}
                 </button>
               ))}
+              {selectedSize === "XS" && (
+                <p className="text-xs text-red-500 mt-2">
+                  Selected size is out of stock.
+                </p>
+              )}
             </div>
             {sizeError && (
               <p className="font-manrope text-[12px] text-red-500 mt-2 font-medium">
@@ -317,12 +340,23 @@ export default function ProductPage() {
               </p>
             )}
           </div>
+          <div className="flex flex-col gap-1">
+            <button
+              onClick={handleWhatsAppOrder}
+              className="font-manrope text-[14px] text-stone-800 font-semibold underline underline-offset-2 hover:text-black transition-colors text-left"
+            >
+              Order via WhatsApp
+            </button>
 
+            <p className="font-manrope text-[12px] text-stone-400">
+              Quick order. No forms. Just WhatsApp.
+            </p>
+          </div>
           {/* Add to bag */}
           <div className="flex flex-col gap-3">
             <button
               onClick={handleAddToBag}
-              className={`w-full font-manrope text-[12px] tracking-[0.08em] uppercase font-semibold py-4 transition-all duration-300 ${
+              className={`w-full font-manrope text-[12px] tracking-[0.08em] uppercase font-semibold py-3 transition-all duration-300 ${
                 added
                   ? "bg-stone-600 text-white"
                   : "bg-stone-900 text-white hover:bg-stone-700"
@@ -330,7 +364,7 @@ export default function ProductPage() {
             >
               {added ? "Added to Bag ✓" : "Add to Bag"}
             </button>
-            <button className="w-full font-manrope text-[12px] tracking-[0.08em] uppercase font-semibold py-4 border border-stone-300 text-stone-700 hover:border-stone-800 hover:text-stone-900 transition-all duration-200 bg-white">
+            <button className="w-full font-manrope text-[12px] tracking-[0.08em] uppercase font-semibold py-3 border border-stone-300 text-stone-700 hover:border-stone-800 hover:text-stone-900 transition-all duration-200 bg-white">
               Save to Wishlist
             </button>
           </div>

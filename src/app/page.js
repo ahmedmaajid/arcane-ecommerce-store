@@ -4,6 +4,7 @@ import CollectionSelector from "@/components/CollectionSelector";
 import FeaturedProducts from "@/components/FeaturedProducts";
 import PreFooterSection from "@/components/PreFooterSection";
 import Footer from "@/components/Footer";
+import OfferBanner from "@/components/OfferBanner";
 
 export const metadata = {
   title: "Arcane — Modern Luxury Fashion | New SS2025 Collection",
@@ -15,11 +16,12 @@ export default function HomePage() {
   return (
     <main>
       <Hero />
+      <OfferBanner />
       <CollectionSelector />
       <EditorialSection />
       <FeaturedProducts />
       <PreFooterSection />
-      <Footer/>
+      <Footer />
     </main>
   );
 }
